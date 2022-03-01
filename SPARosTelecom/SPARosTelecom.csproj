@@ -14,4 +14,13 @@
     <PackageReference Include="MySql.Data" Version="8.0.21" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Files\DataBase\DataBase.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Files\DataBase\DataBase_log.ldf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
